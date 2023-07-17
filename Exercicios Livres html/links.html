@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+       a::after{
+        content: ' [link]';
+        color: gray;
+       }
+
+       a {
+        color: green;
+        text-decoration: none;
+
+       }
+
+       a:visited{
+        color: red;
+        font-weight: bold;
+       }
+
+       a:hover{
+          color: black;
+          text-decoration: underline;
+       }
+        
+       
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.repacar.com.br" target="_blank">Repacar</a></li>
+        <li><a href="https://www.costanavarro.com.br" target="_blank">Costa Navarro</a></li>
+        <li><a href="www.balibox.com.br" target="_blank">Balibox</a></li>
+    </ul>
+
+</body>
+</html>

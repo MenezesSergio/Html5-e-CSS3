@@ -1,0 +1,199 @@
+@charset "UTF8";
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+
+
+
+header {
+    background-image: linear-gradient(to top, rgba(8, 68, 28, 0.918), rgb(76, 192, 115));
+    font-family: 'idroid'; 
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center; 
+    color: white;
+    padding: 30px; 
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px; 
+    
+}
+ 
+ nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 10px; 
+   
+   
+
+    
+}
+
+body {
+    background-color:  lightgreen;
+    text-align: justify;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    font: black; 
+    text-align: justify;
+    line-height: 1.2;
+    margin: auto; 
+    padding: 10px;
+    text-indent: 1em;
+    min-width: 280px;
+    max-width: 800px; 
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px black;
+    
+    
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h1 {
+    font-family: 'idroid'; 
+    color: white;
+}
+
+h2 {
+    font-family: 'idroid';
+    color: rgb(5, 51, 5);
+}
+
+section > img { 
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex; 
+}  
+
+ .bug {
+    display: flex; 
+    height: auto;
+    margin: auto;
+    max-width: 350px;
+   
+} 
+
+
+
+.video {
+    background-color:rgb(2, 41, 2);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+    /* max-width: 500px;
+    margin: auto;
+    display: flex;
+    border: 80px solid rgb(2, 41, 2);
+    border-radius: 5px; */
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+ul.checked-list {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 0 ;
+}
+
+ul.checked-list li:before {
+    content: '✔️'; 
+    display: inline-block;
+    width: 2em;
+    margin-left: -1em;
+    text-align: center;
+    vertical-align: middle;
+    color: green;
+}
+
+ul.checked-list li{
+    counter-increment: item;
+    padding-left: 1.5em;
+    position: relative;
+    line-height: 1.5;
+}
+
+.list-container {
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.list-container ul {
+    width: 50%;
+    float: left;
+    padding: 0;
+    
+    
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.end > h2{
+    background-color: rgb(15, 90, 15);
+    color:white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.end {
+    background-color: lightgreen;
+    padding: -5px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 5px;
+}
+
+.fim > p {
+    text-align: justify;
+    line-height: 2em;
+    margin: 10px;
+    padding: 10px;
+    text-indent: 1em;
+
+}
+
+
+/* Colocar aqui estilização mobile */
+@media (max-width: 800px) {
+
+}
+
+
+
+

@@ -20,6 +20,8 @@ header {
     margin: auto;
     min-width: 280px;
     max-width: 800px; 
+
+
     
 }
  
@@ -56,8 +58,8 @@ section {
     margin: auto;
     margin-bottom: 20px;
     border-radius: 5px;
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 280px;
+    max-width: 800px;
     box-shadow: 0px 0px 10px black;
     
     

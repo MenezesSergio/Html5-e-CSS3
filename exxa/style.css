@@ -1,23 +1,36 @@
 @charset "UTF8";
 
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
 body {
     background-color: lightgrey;
     text-align: justify;
     font-weight: normal;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    min-width: 280px;
+    max-width: 1680px;
+   
 }
 
 header {
     background-color: #3A3962;
-    display: flex;
-    position: relative;  
+    display: flex; 
+    position: relative; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 1em;
     color: white;
-    padding: 20px; 
-    margin:auto;
-    width: 100%;
+    padding: 30px;  
+    margin:80px; 
+    margin-top: 0px;
+    width: 100%; 
+    height: 100%;
    
 
 }
@@ -26,16 +39,15 @@ header {
     position: relative;
     text-align: left; 
     margin-right: auto;
-    margin-left: 100px;
-    
-    
+    margin-left: 80px;
+     
 }
 
     h1 {
         position: absolute;
         bottom: 5%;
         text-align: left;
-        margin-left: 100px; 
+        margin-left: 80px; 
         
     }
 
@@ -60,32 +72,37 @@ div.inicio > iframe {
     background-color: #3A3962;
     border-color: black;
     display: flex; 
-    right: 10px;
-    left: 40px; 
-    width: 80%;
+    /* right: 10px;
+    left: 10px;  */
+    width: 60%;
     height: 500px; 
     padding: 10px;
     margin: auto; 
-    margin-top: 2px;
-    margin-bottom: 10px; 
+    margin-top: -10px;
+    margin-bottom: 20px; 
+    margin-left: 400px; 
+    margin-right: 5px;
      
 }
 
 main {
-    background-color: black;  
-    /* padding: 50px; */
-    /* width: 100%;  */
+    background-color: #cfe2f3;  
+    padding: 10px;  
+    margin: 80px;
+    width: 100%;  
 }
 
 main .dsk {
     color: #3A3962; 
     text-align: center; 
-    left: 40%;  
+    left: 40%; /*gambiarra para alinhar o H1*/
+    bottom: -20px; /*gambiarra para deixar o h1 "Nossos destaques na posição desejada*/
     
 }
-  .one {
-   background-color: lightblue; 
-   display: flex;
+  .pdts {
+   background-color: #3A3962; 
+   display: flex; 
+   position: relative; 
    justify-content: center;
    width: 300px;
    height: 300px;
@@ -94,55 +111,23 @@ main .dsk {
    overflow: cover;
 }
 
-.one img {
-    max-width: 100%;
-    max-height: 100%;
-}
 
-.two {
-    background-color: lightblue; 
-    display: flex;
+
+
+.destaques {
+    display: flex; 
+    position: relative;
     justify-content: center;
-    width: 300px;
-    height: 300px;
-    align-items: center;
-    border-radius: 50%;
-    overflow: cover;
- }
+    padding: 1px; 
+    margin: 1px;
+    width: 100%;
+    height: 70%;
+    
+    
+} 
 
- .two img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.three {
-    background-color: lightblue; 
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    align-items: center;
-    border-radius: 50%;
-    overflow: cover;
- }
-
- .three img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.four {
-    background-color: lightblue; 
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    align-items: center;
-    border-radius: 50%;
-    overflow: cover;
- }
-
- .four img {
-    max-width: 100%;
-    max-height: 100%;
-}
+ .pdts {
+   flex: 150%;
+   padding: 10px;
+   right: 45px;
+}     

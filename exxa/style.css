@@ -95,14 +95,17 @@ main > h1 {
 .pdts {
     background-color: #3A3962;
     color:white;
-    float: left;
-    width: 600px;
-    height: 200px;
-    padding: 100px; 
-    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
+    width: 200px;
+    height: 200px; 
+    padding: 50px;
+    position: static; 
     text-align: center;
-    margin: 150px; 
-    border-radius: 200%;
+    margin: 50px; 
+    margin-left: 110px; 
+    border-radius: 90%; 
     }
 
 .destaques::after {
@@ -112,15 +115,54 @@ main > h1 {
 }  
 
 .destaques {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.5);
     border-color: #3A3962;
     display: flex;
+    float: flex;
+    
 }
 
-.pdts {
-    flex: 25%;
-    padding: 5px;
+#todos  {
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
 }
+
+.emp1 h2 {
+    color: black;
+    bottom: 5%;
+    text-align: left;
+    margin-left: 80px; 
+}
+
+.emp1 p {
+    background-color: lightgray;
+    color: black;
+    display: block;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+.CN  {
+    background-color: #3A3962;
+    float: right;
+    margin-left: 50%;
+    margin-bottom: 50%;
+}
+
+
+
+
+
+
 
 
 

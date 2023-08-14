@@ -93,8 +93,8 @@ main > h1 {
 }
 
 .pdts {
-    background-color: #3A3962;
-    color:white;
+    background-color: #D9D9D9;
+    color: #3A3962;
     display: flex;
     flex-wrap: wrap;
     float: center;
@@ -115,7 +115,7 @@ main > h1 {
 }  
 
 .destaques {
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: #FFFFFF;
     border-color: #3A3962;
     display: flex;
     float: flex;
@@ -123,39 +123,51 @@ main > h1 {
 }
 
 #todos  {
-    background-color: black;
-    color: white;
+    background-color: #3A3962;
+    color: #D9D9D9;
     display: block;
     margin: 0 auto;
     width: 120px;
     height: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: -50px;
+    margin-bottom: 40px; 
     cursor: pointer;
     
 }
 
-.emp1 h2 {
-    color: black;
-    bottom: 5%;
-    text-align: left;
-    margin-left: 80px; 
+
+
+.emp1 {
+    display: flex;
+    width: 1729px;
+    height: 914px;
 }
 
-.emp1 p {
+.emp1 h2 {
+    color: black;
+    font-weight: bold;
+    width: 731px;
+    height: 269px;
+    margin-left: 80px;   
+}
+
+
+
+.emp1 h3 {
     background-color: lightgray;
     color: black;
-    display: block;
-    width: 300px;
-    height: 300px;
-    padding: 30px;
+    width: 691px;
+    height: 231px;
+    margin-top: 50px;
+    padding: 70px;  
+    margin-left: 40px; 
 }
 
 .CN  {
-    background-color: #3A3962;
+    /* background-color: #3A3962;
     float: right;
     margin-left: 50%;
-    margin-bottom: 50%;
+    margin-bottom: 50%;  */
 }
 
 

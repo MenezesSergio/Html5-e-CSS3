@@ -73,7 +73,7 @@ nav > a {
 
 div.inicio > iframe {
     background-color: #3A3962;
-    border-color: black;
+    border-color: #3A3962;
     display: flex;
     width: 60%;
     height: 500px;
@@ -87,6 +87,7 @@ div.inicio > iframe {
 }
 
 main > h1 {
+    color: #3A3962;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -98,8 +99,8 @@ main > h1 {
     display: flex;
     flex-wrap: wrap;
     float: center;
-    width: 200px;
-    height: 200px; 
+    width: 100px;
+    height: 100px; 
     padding: 50px;
     position: static; 
     text-align: center;
@@ -144,10 +145,11 @@ main > h1 {
 }
 
 .emp1 h2 {
-    color: black;
+    color: #3A3962;
     font-weight: bold;
-    width: 731px;
-    height: 269px;
+    text-align: justify;
+    width: 250px;
+    height: 169px; 
     margin-left: 80px;   
 }
 
@@ -155,19 +157,25 @@ main > h1 {
 
 .emp1 h3 {
     background-color: lightgray;
-    color: black;
-    width: 691px;
-    height: 231px;
-    margin-top: 50px;
-    padding: 70px;  
-    margin-left: 40px; 
+    color: #3A3962;
+    width: 250;
+    height: 231;
+    white-space: pre-line; 
+    margin-left: -250px; 
+    margin-top: 40px;
+  
+    
+   
 }
 
 .CN  {
-    /* background-color: #3A3962;
-    float: right;
-    margin-left: 50%;
-    margin-bottom: 50%;  */
+   background-color: #FFFFFF;
+   float: left;
+   padding: 5px;
+   margin-left: 180px;
+   width: 879px;
+   /* height: 914px; */
+   
 }
 
 

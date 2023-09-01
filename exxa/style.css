@@ -11,7 +11,7 @@ body {
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +30,6 @@ header {
     font-size: 1em;
     color: white;
     padding: 20px;
-    /* margin:10px;  */
     margin-top: 0px;
     width: 100%;
     height: 100%;
@@ -93,39 +92,52 @@ main > h1 {
     margin-bottom: 30px;
 }
 
+.destaques {
+    background-color: #FFFFFF;
+    border-color: #3A3962;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    width: 150%;
+    height: 20%;
+    padding: 20px;
+        
+}
+
+
 .pdts {
     background-color: #D9D9D9;
     color: #3A3962;
     display: flex;
     flex-wrap: wrap;
     float: center;
-    width: 100px;
-    height: 100px; 
-    padding: 50px;
-    position: static; 
-    text-align: center;
-    margin: 50px; 
-    margin-left: 110px; 
+    width: 70px;
+    height: 70px;  
+    padding: 60px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 240px;   
     border-radius: 90%; 
     }
 
-.destaques::after {
-    content: "";
-    clear: both;
-    display: table;
-}  
+.name {
+        color:#3A3962;
+        font-size: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 150px;
+        text-indent: -230px;
+          
+    }
 
-.destaques {
-    background-color: #FFFFFF;
-    border-color: #3A3962;
-    display: flex;
-    float: flex;
-    
-}
+
 
 #todos  {
-    background-color: #3A3962;
-    color: #D9D9D9;
+    background-color:red;
+    color: red;
     display: block;
     margin: 0 auto;
     width: 120px;
@@ -140,8 +152,16 @@ main > h1 {
 
 .emp1 {
     display: flex;
-    width: 1729px;
-    height: 914px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: white;
+    padding: 20px;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 .emp1 h2 {

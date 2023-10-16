@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    span#burguer {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+}
+
+menu > ul > li  {
+    display: none;
+}
+
+main {
+    width: 600px;
+}

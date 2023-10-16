@@ -12,12 +12,12 @@ body {
     text-align: justify;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%; 
+    width: 100vw; 
     height: 100vh;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    overflow-x: hidden;
+    overflow-x: hidden; 
    
 
 }
@@ -32,7 +32,7 @@ header {
     color: white;
     padding: 20px;
     margin-top: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100%; 
     
 
@@ -56,21 +56,38 @@ header > h1 {
 
     }
 
+menu {
+     display: flex; 
+     padding-right: 50px;
+}  
+
+menu > ul {
+     list-style-type: none; 
+}
 
 
 
-
-nav > a {
+menu > ul > li > a {
+    display: inline;
+    padding: 10px;
     color: white;
     text-decoration: none;
-    margin-top: 20px;
-    margin-right: 30px;
-    text-align: right;
-    display: flex;
-    float: right;
+    text-align: center;
     font-size: 17px;
-    right: 20px;
 
+}
+
+span#burguer {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 

@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Exxa Neg & Representações</title>
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <div id="logo">
         <img src="exxa-branco.png" alt=""> 
         </div>
         <h1>Representações</h1>
-        <nav>
-            <a href="#">Sustentabilidade</a>
-            <a href="#">Sobre</a>
-            <a href="#">Destaques</a>
-            <a href="#">Home</a>
-        </nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Sustentabilidade</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Destaques</a></li>
+                <li><a href="#">Home</a></li>
+           </ul>
+        </menu>
   
     </header>
     <div class="inicio">

@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    overflow-x: hidden; 
+    
    
 
 }
@@ -57,18 +57,18 @@ header > h1 {
     }
 
 menu {
-     display: flex; 
-     padding-right: 50px;
+     display: inline-flex; 
+     padding-right: 50px; 
 }  
 
 menu > ul {
-     list-style-type: none; 
+      list-style-type: none;   
 }
 
 
 
 menu > ul > li > a {
-    display: inline;
+    display: block;
     padding: 10px;
     color: white;
     text-decoration: none;

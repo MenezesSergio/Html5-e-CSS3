@@ -25,14 +25,16 @@ body {
 header {
     background-color: #3A3962;
     display: flex;
-    position: relative;
+    /* position: relative; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 1em;
     color: white;
-    /* padding: 20px; */
+    padding: 15px; 
     margin-top: 0px;
-    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 98.3vw;
     height: 100%; 
     
 
@@ -96,11 +98,12 @@ div.inicio > iframe {
     background-color: #3A3962;
     border-color: #3A3962;
     display: flex;
-    width: 100vw;
+    width: 98.3vw;
     height: 715px;
-    padding: 10px;
-    margin: auto;
+    padding: 15px; 
     margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 5px; 
     margin-bottom: 10px;
 
 
@@ -108,7 +111,8 @@ div.inicio > iframe {
 
 main {
     background-color: aqua;
-    width: 50vw;
+    
+    
     
 }
 
@@ -117,24 +121,24 @@ main > .dsk {
     color: #3A3962;
     align-items: center;
     text-align: center; 
-    margin-top: 10px;
+    /* margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 250px; 
-    margin-right: 10px;
+    margin-right: 10px; */
     
     
 }
 
 main > .destaques {
     background-color: red;
-    width: 180%;  
+    /* width: 180%;   */
     align-items: center; 
-    height: 300px; 
-    padding: 10px;
+    /* height: 300px;  */
+    /* padding: 10px;
     margin-top: 10px; 
     margin-bottom: 10px;
     margin-left: 450px;
-    margin-right: 50px;  
+    margin-right: 50px;   */
     
 }
 
@@ -142,8 +146,8 @@ main > .destaques {
     background-color: green;
     border-color: #3A3962;
     display: flex;  
-    width: 10%;
-    height: 30%;
+    /* width: 10%;
+    height: 30%; */
     /* align-items: center;   */
 
 }
@@ -155,12 +159,12 @@ main > .destaques {
     color: #3A3962;
     width: 40px;
     height: 40px;
-    padding: 90px; 
+    padding: 90px;  
     margin-top: 10px; 
-    /* margin-right: 120px;   */
+    margin-right: 120px;   
     margin-bottom: 30px;
     margin-left: 10px;  
-    border-radius: 90%;
+    border-radius: 90%; 
 
     
     }
@@ -237,7 +241,7 @@ main > .destaques {
     margin-top: 80px;
     margin-right: 100px; 
     margin-bottom: 0px;
-    margin-left: -100px; 
+    margin-left: -100px;  
   
     
 

@@ -15,7 +15,7 @@ body {
     width: 100vw; 
     height: 100vh; 
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;  
     justify-content: space-between; 
     
    
@@ -24,18 +24,19 @@ body {
 
 header {
     background-color: #3A3962;
-    display: flex;
+    display: flex; 
     /* position: relative; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 1em;
     color: white;
+    width: 98.3vw;
     padding: 15px; 
     margin-top: 0px;
     margin-left: 5px;
     margin-right: 5px;
-    width: 98.3vw;
-    height: 100%; 
+   
+
     
 
 
@@ -94,37 +95,42 @@ span#burguer:hover {
 
 
 
+
+
 div.inicio > iframe {
     background-color: #3A3962;
     border-color: #3A3962;
     display: flex;
     width: 98.3vw;
     height: 715px;
-    padding: 15px; 
+    padding: 15px 15px 15px 15px; 
     margin-top: 1px;
     margin-left: 5px;
     margin-right: 5px; 
-    margin-bottom: 10px;
+    margin-bottom: 10px;  
 
 
 }
 
 main {
-    background-color: aqua;
+    /* background-color: aqua;
+    width: 100%;
+    height: 100%;
+    padding: 50px; */
+    /* margin-left: 300px; */
+    
     
     
     
 }
 
 main > .dsk {
-    background-color: yellow;
+    /* background-color: yellow;
     color: #3A3962;
     align-items: center;
     text-align: center; 
-    /* margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 250px; 
-    margin-right: 10px; */
+    margin-top: 10px; */
+  
     
     
 }
@@ -132,7 +138,7 @@ main > .dsk {
 main > .destaques {
     background-color: red;
     /* width: 180%;   */
-    align-items: center; 
+    /* align-items: center;  */
     /* height: 300px;  */
     /* padding: 10px;
     margin-top: 10px; 
@@ -143,9 +149,9 @@ main > .destaques {
 }
 
 .destaques {
-    background-color: green;
+    /* background-color: green;
     border-color: #3A3962;
-    display: flex;  
+    display: flex;   */
     /* width: 10%;
     height: 30%; */
     /* align-items: center;   */
@@ -155,7 +161,7 @@ main > .destaques {
 
 
 .pdts {
-    background-color: black;
+    /* background-color: black;
     color: #3A3962;
     width: 40px;
     height: 40px;
@@ -164,34 +170,34 @@ main > .destaques {
     margin-right: 120px;   
     margin-bottom: 30px;
     margin-left: 10px;  
-    border-radius: 90%; 
+    border-radius: 90%;  */
 
     
     }
 
 .name {
-        color:#3A3962;
+        /* color:#3A3962;
         font-size: 1em;
         display: flex; 
         flex-wrap: wrap;
         text-align: center;
         margin-top: 30px;
         margin-left: 150px;
-        text-indent: -230px;
+        text-indent: -230px; */
 
     }
 
  #pdt1, #pdt2, #pdt3, #pdt4{
-      margin-top: 10px;
+      /* margin-top: 10px;
       margin-right: 5px;
       margin-bottom: 30px;
       margin-left: 30px;
-      align-items: center;
+      align-items: center; */
       
 }
 
 #todos  {
-    background-color:#3A3962;
+    /* background-color:#3A3962;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 35px;
@@ -200,7 +206,7 @@ main > .destaques {
     width: 300px;
     height: 80px;
     margin-top: 100px; 
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 #todos:hover {
@@ -209,20 +215,20 @@ main > .destaques {
 
 
 .emp1 {
-    display: flex;
+    /* display: flex;
     position: relative;
     padding: 20px;
     margin-top: 100px;
-    width: 90%;
-    height: 30%;
+    width: 98.3%;
+    height: 30%; */
 }
 
 .emp1 > h2 {
-    color: #3A3962;
+    /* color: #3A3962;
     font-weight: bold;
     font-size: 2.8em;
     text-align: justify;
-    margin-top: 5px;
+    margin-top: 5px; */
     /* margin-right: -60px;
     margin-bottom: 80px;
     margin-left: 100px; */
@@ -233,7 +239,7 @@ main > .destaques {
 
 
 .emp1 > h3 {
-    color: #3A3962;
+    /* color: #3A3962;
     width: 20%;
     height: 20%;
     display: inline-block;
@@ -241,21 +247,21 @@ main > .destaques {
     margin-top: 80px;
     margin-right: 100px; 
     margin-bottom: 0px;
-    margin-left: -100px;  
+    margin-left: -100px;   */
   
     
 
 }
 
 #sbcn {
-    background-color: #3A3962;
+    /* background-color: #3A3962;
     color: #FFFFFF;
     font-weight: normal;
     font-size: 35px;
     width: 300px;
     height: 80px;
     margin-top: 50px;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 #sbcn:hover {
@@ -263,52 +269,52 @@ main > .destaques {
 }
 
 .CN  {
-   padding-left: 200px;
+   /* padding-left: 200px; */
  
 }
 
 .emp2 {
-    position: relative;
+    /* position: relative;
     width: 90%;
     height: 30%;
-    margin-top: 2px; 
+    margin-top: 2px;  */
    
 }
 
 .emp2  h2 {
-    color: #3A3962;
+    /* color: #3A3962;
     font-weight: bold;
-    font-size: 2.8em;
-    position: absolute;
+    font-size: 2.8em; */
+    /* position: absolute;
     top: 0;
     left: 0;
-    margin-left: 1100px;
+    margin-left: 1100px; */
     
     
 
 }
 
  .emp2 > h3 {
-    color: #3A3962;
+    /* color: #3A3962;
     text-indent: 50px;
     width: 25%;
     height: 50%;
     float: right;
     margin-top: 100px;
-    margin-right: 550px;
+    margin-right: 550px; */
     
     
   
 } 
 
   .emp2 > img  {
-    padding-top: 10px; 
-    padding-left: 130px; 
+    /* padding-top: 10px; 
+    padding-left: 130px;  */
     
    
  }   
 
- #sbrpcr {
+ /* #sbrpcr {
     background-color: #3A3962;
     color: #FFFFFF;
     font-weight: normal;
@@ -316,17 +322,17 @@ main > .destaques {
     width: 300px;
     height: 80px;
     margin-top: 30px;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
-#sbrpcr:hover {
+/* #sbrpcr:hover {
     background-color: red;
 }
 
 footer {
     background-color:#3A3962;
     color: #FFFFFF;
-    width: 100%;
+    width: 98.3vw;
     height: 5%;
 }
 
@@ -347,7 +353,7 @@ footer > img {
     margin-top: -30px;
     margin-right: 30px;
     
-}
+} */
 
 
 

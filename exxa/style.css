@@ -3,41 +3,40 @@
 * {
     margin: 0;
     padding: 0;
-        
+
 }
 
-       
+
 body {
     background-color: white;
     text-align: justify;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100vw; 
-    height: 100vh; 
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;  
-    justify-content: space-between; 
-    
-   
+    flex-direction: column;
+    justify-content: space-between;
+
+
 
 }
 
 header {
     background-color: #3A3962;
-    display: flex; 
-    /* position: relative; */
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 1em;
     color: white;
-    width: 98.3vw;
-    padding: 15px; 
-    margin-top: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
-   
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    min-width: 280px;
+    max-width: 1920px;
 
-    
+
+
 
 
 }
@@ -60,12 +59,12 @@ header > h1 {
     }
 
 menu {
-     display: inline-flex; 
-     padding-right: 50px; 
-}  
+     display: inline-flex;
+     padding-right: 50px;
+}
 
 menu > ul {
-      list-style-type: none;   
+      list-style-type: none;
 }
 
 
@@ -99,15 +98,17 @@ span#burguer:hover {
 
 div.inicio > iframe {
     background-color: #3A3962;
-    border-color: #3A3962;
+    box-sizing: border-box;
     display: flex;
-    width: 98.3vw;
-    height: 715px;
-    padding: 15px 15px 15px 15px; 
+    width: 100%;
+    height: 680px;
+    padding: 10px;
     margin-top: 1px;
-    margin-left: 5px;
-    margin-right: 5px; 
-    margin-bottom: 10px;  
+    margin-right: 5px;
+    position: relative;
+   
+    
+
 
 
 }
@@ -118,21 +119,21 @@ main {
     height: 100%;
     padding: 50px; */
     /* margin-left: 300px; */
-    
-    
-    
-    
+
+
+
+
 }
 
 main > .dsk {
     /* background-color: yellow;
     color: #3A3962;
     align-items: center;
-    text-align: center; 
+    text-align: center;
     margin-top: 10px; */
-  
-    
-    
+
+
+
 }
 
 main > .destaques {
@@ -141,11 +142,11 @@ main > .destaques {
     /* align-items: center;  */
     /* height: 300px;  */
     /* padding: 10px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 450px;
     margin-right: 50px;   */
-    
+
 }
 
 .destaques {
@@ -165,20 +166,20 @@ main > .destaques {
     color: #3A3962;
     width: 40px;
     height: 40px;
-    padding: 90px;  
-    margin-top: 10px; 
-    margin-right: 120px;   
+    padding: 90px;
+    margin-top: 10px;
+    margin-right: 120px;
     margin-bottom: 30px;
-    margin-left: 10px;  
+    margin-left: 10px;
     border-radius: 90%;  */
 
-    
+
     }
 
 .name {
         /* color:#3A3962;
         font-size: 1em;
-        display: flex; 
+        display: flex;
         flex-wrap: wrap;
         text-align: center;
         margin-top: 30px;
@@ -193,7 +194,7 @@ main > .destaques {
       margin-bottom: 30px;
       margin-left: 30px;
       align-items: center; */
-      
+
 }
 
 #todos  {
@@ -205,7 +206,7 @@ main > .destaques {
     margin-left: 790px;
     width: 300px;
     height: 80px;
-    margin-top: 100px; 
+    margin-top: 100px;
     cursor: pointer; */
 }
 
@@ -243,13 +244,13 @@ main > .destaques {
     width: 20%;
     height: 20%;
     display: inline-block;
-    text-indent: 50px;  
+    text-indent: 50px;
     margin-top: 80px;
-    margin-right: 100px; 
+    margin-right: 100px;
     margin-bottom: 0px;
     margin-left: -100px;   */
-  
-    
+
+
 
 }
 
@@ -270,7 +271,7 @@ main > .destaques {
 
 .CN  {
    /* padding-left: 200px; */
- 
+
 }
 
 .emp2 {
@@ -278,7 +279,7 @@ main > .destaques {
     width: 90%;
     height: 30%;
     margin-top: 2px;  */
-   
+
 }
 
 .emp2  h2 {
@@ -289,8 +290,8 @@ main > .destaques {
     top: 0;
     left: 0;
     margin-left: 1100px; */
-    
-    
+
+
 
 }
 
@@ -302,17 +303,17 @@ main > .destaques {
     float: right;
     margin-top: 100px;
     margin-right: 550px; */
-    
-    
-  
-} 
+
+
+
+}
 
   .emp2 > img  {
-    /* padding-top: 10px; 
+    /* padding-top: 10px;
     padding-left: 130px;  */
-    
-   
- }   
+
+
+ }
 
  /* #sbrpcr {
     background-color: #3A3962;
@@ -352,7 +353,7 @@ footer > img {
     padding-top: 0px;
     margin-top: -30px;
     margin-right: 30px;
-    
+
 } */
 
 

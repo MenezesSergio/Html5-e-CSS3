@@ -126,62 +126,48 @@ div.inicio > iframe {
 
 .destaques {
     background-color: red;
-    width: 100%;  
-    align-items: center; 
-    height: 300px; 
+    display: inline-block;
+    text-align: justify;
+    width: 99%;
+    height: 30%;  
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 50px; 
-    margin-right: 50px;   
-
 }
 
-.destaques {
-    /* background-color: green;
-    border-color: #3A3962;
-    display: flex;   */
-    /* width: 10%;
-    height: 30%; */
-    /* align-items: center;   */
-
+.destaques::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
 }
 
 
-
-.pdts {
-    /* background-color: black;
+.destaques > .pdts {
+    background-color: black;
     color: #3A3962;
+    display: inline-block; 
     width: 40px;
     height: 40px;
     padding: 90px;
-    margin-top: 10px;
-    margin-right: 120px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    border-radius: 90%;  */
+    border-radius: 90%;   
 
 
     }
 
 .name {
-        /* color:#3A3962;
+        color:#3A3962;
         font-size: 1em;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
         margin-top: 30px;
         margin-left: 150px;
-        text-indent: -230px; */
+        text-indent: -230px; 
 
     }
 
  #pdt1, #pdt2, #pdt3, #pdt4{
-      /* margin-top: 10px;
-      margin-right: 5px;
-      margin-bottom: 30px;
-      margin-left: 30px;
-      align-items: center; */
+    
 
 }
 

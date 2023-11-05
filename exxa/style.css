@@ -119,18 +119,6 @@ div.inicio > iframe {
      margin-top: 5px;
      margin-bottom: 80px;
      position:absolute;
-   
-      
-     
-    
-     
-      
-     
-     
-     
-
-
-
 
 }
 
@@ -198,25 +186,32 @@ div.inicio > iframe {
     width: 3.9%;
     height: 20%;
     margin-right: 10px;
-   
-    
-   
       
-    
 
 }
 
+.tds {
+    display: flex; 
+    justify-content: space-around;
+    width: 90%;
+    height: 55%; 
+    padding-right: 70px; 
+    padding-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 15px; 
+    
+}
+
 #todos  {
-    /* background-color:#3A3962;
+    background-color:#3A3962;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 35px;
-    display: block;
-    margin-left: 790px;
     width: 300px;
     height: 80px;
-    margin-top: 100px;
-    cursor: pointer; */
+    cursor: pointer;
 }
 
 #todos:hover {

@@ -220,43 +220,56 @@ div.inicio > iframe {
 
 
 .emp1 {
-    /* display: flex;
-    position: relative;
-    padding: 20px;
-    margin-top: 100px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: 5px;
     width: 98.3%;
-    height: 30%; */
+    height: 70%; 
+    padding: 20px;
+    margin-top: 10px;
+    
 }
 
+
+
 .emp1 > h2 {
-    /* color: #3A3962;
+    background-color: green;
+    color: #3A3962;
     font-weight: bold;
     font-size: 2.8em;
     text-align: justify;
-    margin-top: 5px; */
-    /* margin-right: -60px;
-    margin-bottom: 80px;
-    margin-left: 100px; */
-
+    margin-bottom: 300px;
+    margin-left: 20px; 
+    
+    
 
 }
 
 
 
 .emp1 > h3 {
-    /* color: #3A3962;
-    width: 20%;
-    height: 20%;
-    display: inline-block;
-    text-indent: 50px;
-    margin-top: 80px;
-    margin-right: 100px;
-    margin-bottom: 0px;
-    margin-left: -100px;   */
-
-
+    background-color: red;
+    color: #3A3962;
+    width: 30%;
+    height: 40%;
+    text-indent: 20px;
+    margin-top: 250px;
+    margin-right: 50px;
+    margin-bottom: 230px;
+    margin-left: 5px;  
+  
 
 }
+
+.CN  {
+    padding-right: 30px; 
+ 
+ }
+
+
 
 #sbcn {
     /* background-color: #3A3962;
@@ -273,10 +286,7 @@ div.inicio > iframe {
     background-color: rgba(17, 17, 107, 0.808);
 }
 
-.CN  {
-   /* padding-left: 200px; */
 
-}
 
 .emp2 {
     /* position: relative;

@@ -223,52 +223,49 @@ div.inicio > iframe {
     background-color: yellow;
     display:flex;
     flex-direction: row;
-    align-items: center;
-    /* flex-wrap: nowrap; */
+    align-items: center; 
+    flex-wrap: nowrap;
+    justify-content: center;
     width: 100%;
     height: 70%; 
-    padding: 5px;
+    padding: 2px;
     margin-top: 10px;
     
 }
 
-
-
-.emp1 > h2 {
-    background-color: green;
-    color: #3A3962;
-    font-weight: bold;
-    font-size: 2.5em; 
-    text-align: left; 
-    text-indent: -150px;
-    margin-bottom: 500px; 
-    margin-left: 250px; 
-    padding-left: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    
-    
-    
-
-}
-
-
-
 .emp1 > .text {
     background-color: red;
     color: #3A3962;
-    text-indent: 60px;
-    margin-top: 190px;
-    margin-right: 200px;
-    margin-bottom: 180px;
-    margin-left: 5px;  
-  
+    width: 40%;
+    height: 75%;
+    text-indent: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 5px;
+    padding-left: 15px; 
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+.text > h2 {
+    color: #3A3962;
+    font-weight: bold;
+    font-size: 2.5em; 
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    
+    
+
 
 }
 
 .CN  {
     background-color: blue;
-    margin-right: 50px;
+    margin-right: 1px;
+    margin-left: 450px;
     padding-top: 3px;
     padding-right: 3px; 
     padding-bottom: 1px;

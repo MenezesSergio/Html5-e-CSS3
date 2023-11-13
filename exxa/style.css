@@ -215,12 +215,12 @@ div.inicio > iframe {
 }
 
 #todos:hover {
-    background-color: green;
+    background-color: rgba(17, 17, 107, 0.808);
 }
 
 
 .emp1 {
-    background-color: yellow;
+    background-color: #3a39623b;
     display:flex;
     flex-direction: row;
     align-items: center; 
@@ -234,15 +234,14 @@ div.inicio > iframe {
 }
 
 .emp1 > .text {
-    background-color: red;
     color: #3A3962;
     width: 40%;
     height: 75%;
     text-indent: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 100px;
-    margin-right: 5px;
+    margin-left: 250px;
+    margin-right: -150px;
     padding-left: 15px; 
     padding-top: 5px;
     padding-right: 30px;
@@ -263,7 +262,6 @@ div.inicio > iframe {
 }
 
 .CN  {
-    background-color: blue;
     margin-right: 1px;
     margin-left: 450px;
     padding-top: 3px;
@@ -276,14 +274,16 @@ div.inicio > iframe {
 
 
 #sbcn {
-    /* background-color: #3A3962;
+    background-color: #3A3962;
     color: #FFFFFF;
     font-weight: normal;
     font-size: 35px;
-    width: 300px;
-    height: 80px;
+    width: 200px;
+    height: 50px;
     margin-top: 50px;
-    cursor: pointer; */
+    margin-bottom: 50px;
+    margin-left: 60px;
+    cursor: pointer;
 }
 
 #sbcn:hover {
@@ -293,34 +293,39 @@ div.inicio > iframe {
 
 
 .emp2 {
-    /* position: relative;
-    width: 90%;
-    height: 30%;
-    margin-top: 2px;  */
+    background-color: yellow;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    flex-wrap:nowrap;
+    justify-content: center;
+    padding: 2px;
+    margin-top: 0px; 
 
 }
 
-.emp2  h2 {
-    /* color: #3A3962;
+.emp2 > h2 {
+    color: #3A3962;
     font-weight: bold;
-    font-size: 2.8em; */
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1100px; */
+    font-size: 2.5em;
+    text-align: left;
+    
+    
+    
 
 
 
 }
 
- .emp2 > h3 {
-    /* color: #3A3962;
-    text-indent: 50px;
-    width: 25%;
-    height: 50%;
-    float: right;
-    margin-top: 100px;
-    margin-right: 550px; */
+ .emp2 > .text {
+    color: #3A3962;
+    text-indent: 40px;
+    width: 40%;
+    height: 75%;
+  
 
 
 

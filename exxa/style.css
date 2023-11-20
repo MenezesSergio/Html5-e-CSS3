@@ -11,7 +11,7 @@ body {
     background-color: white;
     text-align: justify;
     font-weight: normal;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     width: 99.1vw;
     height: 100vh;
     display: flex;

@@ -12,8 +12,8 @@ body {
     text-align: justify;
     font-weight: normal;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    width: 99.1vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,48 +23,46 @@ body {
 }
 
 header {
-    background-color: #3A3962;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-    font-family: Poppins;
-    font-weight: normal;
-    font-size: 1em;
-    color: white;
-    align-items: flex-start;
-    justify-content: space-between;
-
+     background-color: #3A3962;
+     color: #FFFFFF;
+     width: calc(100% - 60px);
+     height: 90px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 30px;
 }
 
- 
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        list-style-type: none;
+        /* padding: 0; */
+        /* overflow: hidden; */
+        color: white;
+      }
+      
+      li {
+        float: right;
+        
+       
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        margin-right: 10px;
+        text-decoration: none;
+      }
+      
+     
 
-header > h1 {
-    margin-top: 20px;
-    margin-bottom: 5px; 
-    margin-left: 60px;
-    
-
-    }
-
-menu {
-     padding-top: 20px;
-     padding-right: 50px;
-}
-
-menu > ul {
-      list-style-type: none;
-}
 
 
 
-menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-
-}
 
 /* span#burguer {
     color: white;

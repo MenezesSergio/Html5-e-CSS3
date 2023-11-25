@@ -100,32 +100,32 @@ div.inicio > iframe {
 
  .dsk {
      color: #3A3962;
-     font-weight: semiBold;
+     font-weight: Bold;
      font-size: 52px;
      text-align: center; 
-     margin-top: 60px;
-     margin-bottom: 10px;
+     margin-top: 52px;
+     margin-bottom: 44px;
 
 }
 
 .destaques {
     background-color: #FFFFFF;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    line-height: 25px;
+    line-height: 0px;
     display: flex; 
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-around; 
-    gap: 30px;
-    width: 90%;
+    gap: 20px;
+    width: 100%;
     height: 65%; 
-    padding-right: 70px; 
-    padding-left: 50px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    margin-left: 35px;
-    margin-right: 25px; 
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px; 
     
     
 }
@@ -133,7 +133,7 @@ div.inicio > iframe {
 .destaques::after {
     content: '';
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
@@ -141,27 +141,27 @@ div.inicio > iframe {
     background-color: rgba(0, 0, 0, 0.137);
     position: relative;  
     top: 40px;
-    left: 250px; 
-    width: 150px;
-    height: 140px;
-    padding: 100px;  
+    left: 77px; 
+    width: 100px;
+    height: 100px;
+    padding: 80px;  
     border-radius: 90%;   
 
     }
 
 .name {
         color:#3A3962;
-        font-size: 1em;
+        font-size: 0.9em;
         display: flex;
         flex-direction: row;
         text-align: center;
         position: relative;
         top: 80%; 
         padding-right: 15px; 
-        padding-left: 25px;
+        padding-left: 15px;
         margin-top: 20px; 
         margin-bottom: 10px;
-        margin-left: 130px;
+        margin-left: 150px;
         margin-right: 38px;
         text-indent: -230px;   
 
@@ -178,15 +178,16 @@ div.inicio > iframe {
 
 .tds {
     display: flex; 
-    justify-content: space-around;
-    width: 90%;
+    justify-content:center;
+    align-items:center;
+    width: 73%;
     height: 55%; 
-    padding-right: 70px; 
-    padding-left: 50px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 35px;
-    margin-right: 15px; 
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-top: 55px;
+    margin-bottom: 28px;
+    margin-left: 210px;
+    margin-right: 250px; 
     
 }
 
@@ -210,27 +211,28 @@ div.inicio > iframe {
 .emp1 {
     background-color: #3a39623b;
     display:flex;
+    gap: 10px;
     flex-direction: row;
     align-items: center; 
     flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
     height: 60%; 
-    margin-top: 5px;
+    margin-top: 0px;
     
 }
 
 .emp1 > .text {
     color: #3A3962;
-    width: 40%;
-    height: 75%;
-    text-indent: 40px;
-    text-align: left;
-    align-items: left;
+    /* width: 40%;
+    height: 75%; */
+    text-indent: 50px;
+    text-align: center;
+    align-items: center;
     margin-top: 1px;
     margin-bottom: 45px;
-    margin-left: 250px;
-    margin-right: -150px;
+    margin-left: 70px;
+    margin-right: 20px;
     padding-left: 15px; 
     padding-top: 5px;
     padding-right: 30px;
@@ -240,7 +242,7 @@ div.inicio > iframe {
     color: #3A3962;
     font-weight: bold;
     font-size: 2.5em; 
-    text-align: left; 
+    text-align: center; 
     margin-top: 60px;
     margin-bottom: 25px;
     margin-left: 1px;
@@ -249,7 +251,7 @@ div.inicio > iframe {
 
 .CN  {
     margin-right: 0px;
-    margin-left: 450px;
+    margin-left: 0px;
     margin-bottom: -5px;
     padding-top: 1px;
     padding-right: 1px; 
@@ -270,7 +272,7 @@ div.inicio > iframe {
     padding: 3px;
     margin-top: 40px;
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 0px;
     border: none;
     cursor: pointer;
 }
@@ -284,6 +286,7 @@ div.inicio > iframe {
 .emp2 {
     background-color: #3a39623b;
     display: flex;
+    gap: 10px;
     flex-direction: row-reverse;
     position: relative;
     text-align: left;
@@ -292,7 +295,7 @@ div.inicio > iframe {
     height: 60%;
     align-items: center;
     flex-wrap:nowrap;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 0px; 
 
 }
@@ -308,12 +311,12 @@ div.inicio > iframe {
 .emp2 > .text2 {
     color: #3A3962;
     text-indent: 40px;
-    width: 40%;
-    height: 75%;
-    margin-top: 150px;
+    /* width: 40%;
+    height: 75%; */
+    margin-top: 0px;
     margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 250px;
+    margin-left: 117px;
+    margin-right: 84px;
     padding: 5px;
     box-sizing: border-box;
 
@@ -323,7 +326,7 @@ div.inicio > iframe {
     margin-top: 2px;
     margin-bottom: -1px;
     margin-left: 0px;
-    margin-right: 100px;
+    margin-right: 1px;
    
  }
 
@@ -350,31 +353,36 @@ div.inicio > iframe {
 footer {
     background-color:#3A3962;
     color: #FFFFFF;
-    width: 100.1%;
-    height: 10%;
+    width: 100%;
+    height: 5%;
     display:flex;
     align-items: center;
-    text-align: center;
     flex-direction:row;
     justify-content:space-around;    
    
 }
 
 footer > p {
-    padding-left: 378px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 447px;
+    padding-right: 175px;
 }
 
 
 
 footer >.images {
-   width: 9%;
+   width: 12%;
    height: 50%;   
    display: flex;
    flex-direction: row;
-   align-items: flex;
    justify-content: flex-end;
    gap: 10px;
-   margin-right: -190px;  
+   padding-left: 50px;
+   padding-right: 30px;
+   margin-right: 9px;  
+   margin-left: 8px;
 }
 
 

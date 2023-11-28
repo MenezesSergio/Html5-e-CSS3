@@ -142,7 +142,7 @@ button:hover {
 .emp1 {
     background-color: #3a39623b;
     display:flex;
-    gap: 10px;
+    gap: 25px;
     flex-direction: row;
     align-items: center; 
     flex-wrap: nowrap;
@@ -179,13 +179,16 @@ button:hover {
     margin-left: 1px;
 }
 
-.CN  {
+.emp1.CN  {
+    width: 848px; 
+    height: 571px;
     margin-right: 0px;
-    margin-left: 135px;
+    /* margin-left: 135px; */
     margin-bottom: -5px;
     padding-top: 1px;
     padding-right: 1px; 
     padding-left: 3px;
+    object-fit: contain;
    
  
  }
@@ -230,10 +233,13 @@ button:hover {
 }
 
   .emp2 > .RPC  {
+    width: 848px; 
+    height: 571px;
     margin-top: 2px;
     margin-bottom: 20px;
     margin-left: 0px;
     margin-right: 10px;
+    object-fit: fill;
     
    
  }

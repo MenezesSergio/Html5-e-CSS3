@@ -130,7 +130,7 @@ button  {
     font-size: 35px;
     width: 300px;
     height: 80px;
-    margin-top: 30px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
 }
@@ -155,15 +155,15 @@ button:hover {
 
 .emp1 > .text {
     color: #3A3962;
-    width: 731px;
-    height: 690px;
+    width: 500px;
+    height: 523px;
     text-indent: 50px;
     text-align: center;
     align-items: center;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 95px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 212px;
     padding-left: 0px; 
     padding-top: 0px;
     padding-right: 0px;
@@ -179,16 +179,14 @@ button:hover {
     margin-left: 1px;
 }
 
-.emp1.CN  {
-    width: 848px; 
-    height: 571px;
+.Costa_Navarro  {
+    width: 548px; 
+    height: 671px;
     margin-right: 0px;
-    /* margin-left: 135px; */
-    margin-bottom: -5px;
-    padding-top: 1px;
+    padding-top: 0px;
     padding-right: 1px; 
     padding-left: 3px;
-    object-fit: contain;
+    object-fit: fill;
    
  
  }
@@ -200,13 +198,11 @@ button:hover {
     gap: 10px;
     flex-direction: row-reverse;
     position: relative;
-    text-align: left;
-    align-items: center;
     width: 100%;
     height: 60%;
-    align-items: center;
-    flex-wrap:nowrap;
-    margin-top: 0px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-right: 50px; */
 
 }
 
@@ -214,32 +210,30 @@ button:hover {
     color: #3A3962;
     font-weight: bold;
     font-size: 2.5em;
-    margin-bottom: 30px;
+    margin-bottom: 2px;
 
 }
 
 .emp2 > .text2 {
     color: #3A3962;
     text-indent: 40px;
-    width: 731px;
-    height: 690px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-left: 117px;
-    margin-right: 84px;
-    padding: 5px;
-    box-sizing: border-box;
-
+    width: 341px;
+    height: 498px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    margin-right: 75px;
+    
 }
 
   .emp2 > .RPC  {
-    width: 848px; 
-    height: 571px;
+    width: 743px; 
+    height: 540px;
     margin-top: 2px;
     margin-bottom: 20px;
     margin-left: 0px;
-    margin-right: 10px;
-    object-fit: fill;
+    margin-right: 133px;
+    /* object-fit: fill; */
     
    
  }

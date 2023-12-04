@@ -130,7 +130,7 @@ button  {
     font-size: 35px;
     width: 300px;
     height: 80px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: none;
     cursor: pointer;
 }
@@ -141,32 +141,30 @@ button:hover {
 
 .emp1 {
     background-color: #3a39623b;
+    width: 100%;
+    height: auto;
     display:flex;
     gap: 25px;
     flex-direction: row;
     align-items: center; 
     flex-wrap: nowrap;
     justify-content: center;
-    width: 100%;
-    height: 60%; 
     margin-top: 0px;
     
 }
 
 .emp1 > .text {
     color: #3A3962;
-    width: 500px;
-    height: 523px;
+    width: 359px;
+    height: 297px;
     text-indent: 50px;
     text-align: center;
     align-items: center;
     margin-top: 0px;
-    margin-bottom: 95px;
-    margin-left: 0px;
-    margin-right: 212px;
-    padding-left: 0px; 
-    padding-top: 0px;
-    padding-right: 0px;
+    margin-bottom: 170px;
+    margin-left: 240px;
+    margin-right: 160px;
+    padding: 5px;
 }
 
 .text > h2 {
@@ -174,35 +172,28 @@ button:hover {
     font-weight: bold;
     font-size: 2.5em; 
     text-align: center; 
-    margin-top: 60px;
-    margin-bottom: 25px;
-    margin-left: 1px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 0px;
 }
 
 .Costa_Navarro  {
-    width: 548px; 
-    height: 671px;
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-right: 1px; 
-    padding-left: 3px;
+    margin-left: 3px;
+    margin-right: 95px;
     object-fit: fill;
    
- 
  }
 
 
 .emp2 {
     background-color: #3a39623b;
+    width: 100%;
+    height: 60%;
     display: flex;
     gap: 10px;
     flex-direction: row-reverse;
     position: relative;
-    width: 100%;
-    height: 60%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    /* margin-right: 50px; */
+    padding-bottom: 20px;
 
 }
 
@@ -217,23 +208,17 @@ button:hover {
 .emp2 > .text2 {
     color: #3A3962;
     text-indent: 40px;
-    width: 341px;
-    height: 498px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 75px;
-    margin-right: 75px;
+    width: 460px;
+    height: 325px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 213px;
+    margin-right: 165px;
     
 }
 
   .emp2 > .RPC  {
-    width: 743px; 
-    height: 540px;
-    margin-top: 2px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 133px;
-    /* object-fit: fill; */
+    object-fit: fill;
     
    
  }

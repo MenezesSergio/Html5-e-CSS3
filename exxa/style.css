@@ -169,7 +169,7 @@ button:hover {
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 240px;
+    margin-left: 135px;
     margin-right: 160px;
     padding: 5px;
 }
@@ -185,8 +185,10 @@ button:hover {
 }
 
 .Costa_Navarro  {
-    margin-left: 3px;
-    margin-right: 95px;
+    width: 670px;
+    height: 514px;
+    margin-left: 0px;
+    margin-right: 28px;
     object-fit: fill;
    
  }
@@ -219,14 +221,16 @@ button:hover {
     height: 325px;
     margin-top: 50px;
     margin-bottom: 150px;
-    margin-left: 213px;
-    margin-right: 165px;
+    margin-left: 190px;
+    margin-right: 163px;
     
 }
 
-  .emp2 > .RPC  {
+.RPC  {
+    width: 670px;
+    height: 514px;
     object-fit: fill;
-    margin-left: 90px;
+   
     
    
  }

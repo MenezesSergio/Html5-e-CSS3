@@ -3,34 +3,48 @@
   
 
 @media screen and (min-width: 1861px){
+
+    .emp1 {
+        background-color: #3a39623b;
+        width: 100%;
+        height: auto;
+        display:flex;
+        gap: 25px;
+        flex-direction: row;
+        align-items: center; 
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 0px;
+        
+    }
+
+
     .emp1 > .text {
         color: #3A3962;
-        width: 359px;
+        width: 400px;
         height: 297px;
         text-indent: 50px;
         text-align: center;
         align-items: center;
         margin-top: 0px;
         margin-bottom: 110px;
-        margin-left: 335px;
-        margin-right: 391px;
+        margin-left: 350px;
+        margin-right: 20px;
         padding: 5px;
     }
 
     .Costa_Navarro  {
-        width: 670px;
-        height: 514px;
-        margin-left: 100px;
-        object-fit: fill;
-       
+        margin-left: 50px;
+        margin-right: 1px;
+        object-fit: fill;       
      }
 
      .emp2 {
         background-color: #3a39623b;
         width: 100%;
-        height: 60%;
+        height: auto;
         display: flex;
-        gap: 10px;
+        gap: 25px;
         flex-direction: row-reverse;
         position: relative;
         padding-bottom: 20px;
@@ -48,19 +62,23 @@
     .emp2 > .text2 {
         color: #3A3962;
         text-indent: 40px;
-        width: 460px;
+        width: 600px;
         height: 325px;
         margin-top: 50px;
         margin-bottom: 150px;
-        margin-left: 341px;
-        margin-right: 381px;
+        margin-left: 35px;
+        margin-right: 275px;
         
     }
     
     .RPC  {
-        width: 670px;
-        height: 514px;
         object-fit: fill;
-       
      }
+
+     img{
+        width: 100%;
+        height: 95%;
+     }
+
+     
 }

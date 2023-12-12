@@ -1,5 +1,104 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 900px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    div.inicio > iframe {
+        background-color: #3A3962;
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        position: relative;
+    }
+
+    .destaques {
+        background-color: #FFFFFF;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        line-height: 46px;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between; 
+        overflow-x: scroll;
+        width: 100%;
+        height: auto; 
+    }
+
+    .destaques::-webkit-scrollbar{
+        width: 0;
+    }
+    
+     .Nossos-Destaques {
+        color: #3A3962;
+        width: 301px;
+        height: 45px;
+        margin: 0 auto;   
+    }
+    
+    .destaques .produtos {
+        gap: 10px;
+        margin: 60px auto;
+        align-items: center;
+        
+    }
+    
+    .destaques .produtos li {
+        background-color: #d9d9d9;
+        color:#3A3962;
+        font-weight: bold;
+        margin: 0;
+        padding: 20px;
+        width: 230px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 90%;
+    }
+    
+    .destaques .produtos li label,
+    .destaques .produtos li img {
+        display: flex;
+        margin-right: 2px;
+        
+    }
+    
+    .destaques .produtos li img {
+        width: calc(100% - 80px);
+        max-width: 250px;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 @media screen and (min-width: 1861px){
@@ -84,14 +183,6 @@
         height: auto;
      }
 
-     /* .yellow{
-        display: none;
-     }
-
-    .red{
-        display: block;
-    } */
-
-
      
 }
+

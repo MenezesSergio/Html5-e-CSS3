@@ -17,9 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
-
 }
 
 header {
@@ -31,6 +28,16 @@ header {
      justify-content: space-between;
      align-items: center;
      padding: 0 30px;
+}
+
+
+.btn-expandir{
+    display: none;
+}
+
+.icon{
+    display: none;
+    color: #FFFFFF;
 }
 
     ul {

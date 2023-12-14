@@ -22,10 +22,10 @@
         <h1>Exxa Representações</h1>
 
         <nav class="menu-lateral">
-            <div class="btn-expandir">
-                <i class="bi bi-list"></i>
+            <div class="menu">
+                <i class="bi bi-list" onclick="clickMenu()"></i>
             </div>
-            <ul>
+            <ul id="itens">
                 <li class="item-menu">
                     <a href="#">
                         <span class="icon"><i class="bi bi-house-door"></i></span>
@@ -176,12 +176,15 @@
 
     </footer>
 
-
-
-
-
-
-
+    <script>
+          function clickMenu() {
+            if (itens.style.display == 'block') {
+              itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+          }
+    </script>
 
 </body>
 

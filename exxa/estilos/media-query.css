@@ -21,13 +21,26 @@
         
    } 
 
-
-
    h1{
     display: none;
     font-size: 1.2em;
     }
 
+    .menu{
+        background-color: #484848;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;   
+    }  
+    
+    .menu:hover{
+        background-color: white;
+        color: black;
+    }
+
+   
 
 
     div.inicio > iframe {
@@ -35,7 +48,7 @@
         box-sizing: border-box;
         display: flex;
         width: 100%;
-        height: 345px;
+        height: 414px;
         padding: 5px;
         position: relative;
     
@@ -87,7 +100,7 @@
     
     .destaques .produtos li label,
     .destaques .produtos li img {
-        display: flex;
+        display: block;
         margin-right: 2px;
         
     }
@@ -98,6 +111,141 @@
         
         
     }
+
+    /* .tds {
+        display: flex; 
+        justify-content:center;
+        align-items:center;
+        width: 304px;
+        height: 93px; 
+        margin-bottom: 20px;
+        margin-left: 10px;
+    } */
+
+    button  {
+        background-color:#3A3962;
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 35px;
+        width: 204px;
+        height: 93px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .emp1 {
+        background-color: #3a39623b;
+        width: 100%;
+        height: auto;
+        display:flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center; 
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 0px;
+        
+    }
+
+      
+    .text > h2 {
+        color: #3A3962;
+        font-weight: bold;
+        font-size: 1.4em; 
+        text-align: center; 
+        margin-top: 15px;
+        margin-bottom: 1px;
+        margin-left: 0px;
+    }
+
+    .emp1 > .text {
+        color: #3A3962;
+        width: 79%;
+        height: auto;
+        text-indent: 25px;
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        margin-left: 2px;
+        margin-right: 0px;
+        padding: 5px;
+    }
+  
+    .emp1.Costa_Navarro  {
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        object-fit: fill;
+     } 
+
+    .emp2 {
+        background-color: #3a39623b;
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        /* position: relative; */
+        padding-bottom: 5px;
+    
+    
+    }
+    
+    .text2 > h2 {
+        color: #3A3962;
+        font-weight: bold;
+        font-size: 2.5em;
+        margin-bottom: 2px;
+    
+    }
+    
+    .emp2 > .text2 {
+        color: #3A3962;
+        text-indent: 25px;
+        width: 79%;
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 32px;
+        margin-right: 145px;
+        
+    }
+    
+    .emp2.RPC  {
+        width: 100%;
+        object-fit:fill;
+     }
+
+     footer {
+        background-color:#3A3962;
+        color: #FFFFFF;
+        width: 393px;
+        height: 242px;
+        display:flex;
+        align-items: center;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+
+    footer >.images {
+        width: 393px;
+        height: 242px;   
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 50px;
+        padding-right: 30px;
+        margin-right: 9px;  
+        margin-left: 8px;
+     }
 }
 
 
@@ -126,16 +274,16 @@
 
 @media screen and (min-width: 1861px){
 
-    .btn-expandir{
-        display: flex;
+    .menu{
+        display: none;
         margin-top: 10px;
     }
 
-    .icon{
+    /* .icon{
         display: flex;
         margin: 0 auto;
         color: #FFFFFF;
-    }
+    } */
 
     .emp1 {
         background-color: #3a39623b;

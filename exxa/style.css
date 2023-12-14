@@ -31,14 +31,14 @@ header {
 }
 
 
-.btn-expandir{
-    display: none;
+
+#itens{
+    display: flex;
 }
 
-.icon{
-    display: none;
-    color: #FFFFFF;
-}
+
+ 
+ 
 
     ul {
         display: flex;

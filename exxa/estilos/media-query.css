@@ -7,88 +7,27 @@
         padding: 0;
     }
 
+    
     header {
         background-color: #3A3962;
         color: #FFFFFF;
         width: calc(100% - 60px);
         height: 90px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; 
         padding: 0 30px;
-   }
+        
+   } 
+
+
 
    h1{
     display: none;
     font-size: 1.2em;
+    }
 
-   }
-
-   header >.itens > ul{
-    background-color: black;
-    display: flex;
-    width: 300px;
-    height: 100%;
-    padding: 40px 0 40px 1%;
-
-   }
-
-   nav.menu-lateral{
-     background-color: black;
-     display: flex;
-     width: 100%;
-     height: 100%;
-
-   }
-
-   .btn-expandir {
-    color: #FFFFFF;
-    margin-top: 20px;
-    display: flex;
-    width: 100%;
-    padding-left: 10px;
-    cursor: pointer;
-    font-size: 15px;
-
-   }
-
-   .icon{
-    display: flex;
-    margin-right: 10px;
-    color: #FFFFFF;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-
-   
-       ul {
-           height: 100%;
-           display: flex;
-           justify-content: space-around;
-           /* align-items: flex-start; */
-           list-style-type: none;
-           color: white;
-         }
-         
-         li {
-           float: right;
-           
-          
-         }
-         
-         li a {
-           display: flex;
-           color: white;
-           /* text-align: center; */
-           /* padding: 16px; */
-           /* margin-right: 10px; */
-           text-decoration: none;
-         }
-
-         ul li.item-menu a .text-link{
-            margin-left: 20px;
-         }
 
 
     div.inicio > iframe {
@@ -96,9 +35,10 @@
         box-sizing: border-box;
         display: flex;
         width: 100%;
-        height: auto;
+        height: 345px;
         padding: 5px;
         position: relative;
+    
     }
 
     .destaques {
@@ -187,11 +127,13 @@
 @media screen and (min-width: 1861px){
 
     .btn-expandir{
-        display: none;
+        display: flex;
+        margin-top: 10px;
     }
 
     .icon{
-        display: none;
+        display: flex;
+        margin: 0 auto;
         color: #FFFFFF;
     }
 

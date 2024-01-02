@@ -10,35 +10,44 @@
     
     header {
         background-color: #3A3962;
-        color: #FFFFFF;
-        width: calc(100% - 60px);
-        height: 90px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center; 
-        padding: 0 30px;
-        
+        display: block;  
    } 
 
    h1{
-    display: none;
     font-size: 1.2em;
+   }
+
+   header > h1{
+        /* display: none; */
+        padding: 5px;
+        text-align: center;
     }
 
-    .menu{
-        background-color: #484848;
+    .menu {
+        display: block;
+        padding: 10px 10px;
+    }
+
+    .menu > ul {
+        list-style-type: none;
+    }
+
+    .menu > .itens > .item-menu > a {
+        background-color: rgb(87, 87, 87);
         color: white;
         display: block;
+        text-decoration: none;
         text-align: center;
-        padding: 10px;
-        cursor: pointer;   
+        padding: 30px;
+        border-top: 2px solid gray; 
     }  
     
-    .menu:hover{
-        background-color: white;
+    .menu > a:hover{
+        background-color: black;
         color: black;
     }
+
+    
 
    
 

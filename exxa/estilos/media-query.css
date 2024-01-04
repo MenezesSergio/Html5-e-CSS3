@@ -10,7 +10,8 @@
     
     header {
         background-color: #3A3962;
-        display: block;  
+        display: flex;  
+        flex-direction: column;
    } 
 
    h1{
@@ -18,14 +19,14 @@
    }
 
    header > h1{
-        /* display: none; */
         padding: 5px;
         text-align: center;
     }
 
     .menu {
-        display: block;
-        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
     }
 
     .menu > ul {
@@ -35,8 +36,8 @@
     .menu > .itens > .item-menu > a {
         background-color: rgb(87, 87, 87);
         color: white;
-        display: block;
-        text-decoration: none;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         padding: 30px;
         border-top: 2px solid gray; 
@@ -46,11 +47,6 @@
         background-color: black;
         color: black;
     }
-
-    
-
-   
-
 
     div.inicio > iframe {
         background-color: #3A3962;
@@ -102,7 +98,7 @@
         width: 230px;
         height: 230px;
         display: flex;
-        flex-direction: column;
+        flex-direction: center;
         align-items: center;
         border-radius: 90%;
     }
@@ -125,21 +121,22 @@
         display: flex; 
         justify-content:center;
         align-items:center;
-        width: 304px;
-        height: 93px; 
-        margin-bottom: 20px;
-        margin-left: 23px;
+        text-align: center;
+        width: 200px;
+        height: 73px; 
+        
+      
     }
 
     button  {
-        background-color: red;
-        color: black;
+        background-color: #3A3962;
+        color: white;
         font-family: Poppins;
         font-weight: normal;
         font-size: 35px;
+        text-align: center;
         width: 254px;
         height: 73px;
-        display: flex;
         margin: 0 auto;
         margin-top: 37px;
         border: none;

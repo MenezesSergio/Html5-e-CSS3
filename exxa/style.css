@@ -33,14 +33,14 @@ header {
 
 
 .menu {
-   display: flex;
-   justify-content: space-between;
+   display: block;
+    
 }
 
 .menu > a {
     color: white;
     margin-left: 50px;
-    
+    text-decoration: none;   
 }
     
       
@@ -59,6 +59,7 @@ div.inicio > iframe {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     line-height: 46px;
     display: flex; 
+    flex-direction: row;
     align-items: center;
     justify-content: space-between; 
     width: 100%;
@@ -75,7 +76,7 @@ div.inicio > iframe {
 .destaques .produtos {
     gap: 10px;
     margin: 60px auto;
-    align-items: center;
+
     
 }
 
@@ -96,6 +97,7 @@ div.inicio > iframe {
 .destaques .produtos li label,
 .destaques .produtos li img {
     display: block;
+    
     
 }
 
